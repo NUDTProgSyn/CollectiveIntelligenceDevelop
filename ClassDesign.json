@@ -2,26 +2,60 @@
 "classes": [
    {
     "class_name": "class_name",
-    "parameters_name":{
-    	"parameter_name": "parameter_type",
-      "parameter_name": "parameter_type"
-    }
-     "methods":[
+     "methods": [
        {
          "method_name": "method_name",
          "return_type": "return_type",
-         "args": {
-           "arg_name": "arg_type"
+         "parameters": {
+           "parameter_name": "parameter_type"
          }
        },
        {
          "method_name": "method_name",
          "return_type": "return_type",
-         "args": {
-           "arg_name": "arg_type"
+         "parameters": {
+           "parameter_name": "parameter_type"
          }
        }
      ]
    }
+   {
+    "class_name": "SeverSocket",
+    "parameters":[
+    	{
+    		"server":"ServerSocket",
+    		"in":"InputStream",
+    		"out":"OutputStream"
+    	}
+    ],
+     "methods": [
+       {
+         "method_name": "SeverSocket",
+         "return_type": "void",
+         "args": {
+           "port": "int"
+         }
+       },
+       {
+         "method_name": "getMessage",
+         "return_type": "String",
+         "args": {
+         }
+       },
+       {
+         "method_name": "sent",
+         "return_type": "void",
+         "args": {
+           "message": "String"
+         }
+       },
+       {
+         "method_name": "close",
+         "return_type": "void",
+         "args": {
+         }
+       }
+     ]
+  }
  ]
 }
