@@ -2,19 +2,23 @@
 "classes": [
    {
     "class_name": "class_name",
+    "parameters_name":{
+    	"parameter_name": "parameter_type",
+      "parameter_name": "parameter_type"
+    }
      "methods": [
        {
          "method_name": "method_name",
          "return_type": "return_type",
-         "parameters": {
-           "parameter_name": "parameter_type"
+         "args": {
+           "arg_name": "arg_type"
          }
        },
        {
          "method_name": "method_name",
          "return_type": "return_type",
-         "parameters": {
-           "parameter_name": "parameter_type"
+         "args": {
+           "arg_name": "arg_type"
          }
        }
      ]
