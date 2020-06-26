@@ -6,7 +6,7 @@
     	"parameter_name": "parameter_type",
       "parameter_name": "parameter_type"
     }
-     "methods": [
+     "methods":[
        {
          "method_name": "method_name",
          "return_type": "return_type",
